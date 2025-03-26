@@ -149,6 +149,30 @@ button{
     border-radius: 25px;
 }
 
-@media screen{
-    
+@media (max-width: 760px) {
+    main {
+        height: auto;
+        padding: 20px;
+    }
+    .result-summary {
+        flex-direction: column;
+        width: 100%;
+        max-width: 400px;
+        align-items: center;
+    }
+    .result, .summary {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    .result {
+        border-radius: 0 0 20px 20px;
+    }
+    .summary {
+        border-radius: 0 0 20px 20px;
+    }
+
+    .button{
+        width: 105%;
+    }
 }
